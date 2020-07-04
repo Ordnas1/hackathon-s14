@@ -17,6 +17,7 @@
                 <h2>{{ video.title }}</h2>
                 <h3>0 visualizaciones</h3>
                 <p>{{ video.desc }}</p>
+                <button v-on:click.prevent="showVideo(video.id)" class=app-grid__btn>Mostrar detalles</button>
             </div>
         </div>
     </div>

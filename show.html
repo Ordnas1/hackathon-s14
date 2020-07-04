@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <div id="appShow" class="show">
+        <page-header></page-header>
+        <div class="show-content">
+            <h2>{{title}}</h2>
+            <img v-bind:src="url">
+            <h3>{{title}}</h3>
+            <h4>0 visualizaciones</h4>
+            <p>{{ desc }}</p>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="show.js"></script>
+</body>
+</body>
+</html>

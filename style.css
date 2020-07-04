@@ -54,11 +54,23 @@ body {
   gap: 10px 10px;
 }
 
+.app-grid a {
+  color: inherit;
+}
+
 .app-grid__elem {
   position: relative;
   width: 260px;
+  height: 420px;
   border: 1px solid #CFCFCF;
   font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .app-grid__elem h2 {
@@ -98,6 +110,18 @@ body {
   padding: 0.4rem;
   cursor: pointer;
   right: 0;
+}
+
+.app-grid__btn {
+  position: absolute;
+  width: 90%;
+  bottom: 1%;
+  right: 5%;
+  padding: 0.7rem;
+  border: none;
+  background: #00C1AA;
+  color: white;
+  cursor: pointer;
 }
 
 .new {
@@ -145,5 +169,34 @@ body {
 
 .new textarea {
   width: 100%;
+}
+
+.show-content {
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem;
+}
+
+.show-content h2 {
+  margin: 2rem 0;
+}
+
+.show-content img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.show-content h3 {
+  font-size: 14px;
+}
+
+.show-content h4 {
+  font-size: 11px;
+  color: #303030;
+}
+
+.show-content p {
+  font-size: 16px;
+  color: #808080;
 }
 /*# sourceMappingURL=style.css.map */

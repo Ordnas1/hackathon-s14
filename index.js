@@ -28,6 +28,9 @@ let app = new Vue({
             .then(response => response.json())
             .then(data => (this.postId = data.id))
             window.location.href = "index.html"
+        },
+        showVideo: function(elemId) {
+            window.location.href = `show.html?id=${elemId}`
         }
     }
 })

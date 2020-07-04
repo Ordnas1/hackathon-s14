@@ -34,6 +34,8 @@ body {
     }
 }
 
+
+
 .app-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 260px);
@@ -41,11 +43,19 @@ body {
     justify-content: center;
     gap: 10px 10px;
 
+    & a {
+        color: inherit;
+    }
+    
     &__elem {
         position: relative;
         width: 260px;
+        height: 420px;
         border: 1px solid #CFCFCF;
         font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        
 
 
         & h2 {
@@ -85,6 +95,18 @@ body {
         padding: 0.4rem;
         cursor: pointer;
         right: 0;
+    }
+
+    &__btn {
+        position: absolute;
+        width: 90%;
+        bottom: 1%;
+        right: 5%;
+        padding: 0.7rem;
+        border: none;
+        background: #00C1AA;
+        color: white;
+        cursor: pointer;
     }
 }
 
@@ -126,5 +148,33 @@ body {
 
     & textarea {
         width: 100%;
+    }
+}
+
+.show-content {
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+
+    & h2 {
+        margin: 2rem 0;
+    }
+    & img {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    & h3 {
+        font-size: 14px;
+    }
+
+    & h4 {
+        font-size: 11px;
+        color: #303030;
+    }
+
+    & p {
+        font-size: 16px;
+        color: #808080;
     }
 }

@@ -1,7 +1,7 @@
 {
   "videos": [
     {
-      "title": "Video de pruebaaaaaaaa",
+      "title": "Frameworks principales",
       "url": "https://via.placeholder.com/260x190",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu nunc, ultricies sit amet eleifend eget, accumsan fermentum libero. Nulla lectus libero, eleifend et elit quis, ultricies egestas ante. Cras faucibus maximus ante ut viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vitae purus odio.",
       "id": 1
@@ -31,16 +31,10 @@
       "desc": "Pellentesque elit tellus, facilisis id ex vitae, pharetra sodales ipsum. Vestibulum molestie, mi at tempor sagittis, mauris lectus interdum eros, ut convallis est ligula ac risus. Vivamus viverra vehicula fringilla. Quisque dignissim sem non justo fermentum interdum. Etiam vestibulum nec mauris et tincidunt. Etiam."
     },
     {
-      "title": "video de prueba",
+      "title": "JavaScript del futuro, hoy: Babel",
       "url": "https://via.placeholder.com/260x190",
-      "desc": "In cursus velit vitae nisl ullamcorper euismod. Curabitur sed libero quis risus pharetra interdum. Fusce convallis, arcu sed laoreet facilisis, est diam.\n\ntest buenO",
+      "desc": "Descripción",
       "id": 6
-    },
-    {
-      "title": "No borrar",
-      "url": "https://via.placeholder.com/260x190",
-      "desc": "No borres este",
-      "id": 8
     }
   ]
 }
