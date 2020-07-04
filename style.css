@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.app-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  background-color: tomato;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.app-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.app-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (260px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 260px);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px 10px;
+}
+
+.app-grid__elem {
+  position: relative;
+  width: 260px;
+  border: 1px solid #CFCFCF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-grid__elem h2 {
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  margin: 0;
+}
+
+.app-grid__elem h3 {
+  padding: 0 1rem;
+  margin: 0;
+  font-size: 11px;
+  color: #303030;
+}
+
+.app-grid__elem p {
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  line-height: 18px;
+  color: #808080;
+}
+
+.app-grid__elem:hover {
+  -webkit-box-shadow: 0px 0px 8px rgba(146, 146, 146, 0.53);
+          box-shadow: 0px 0px 8px rgba(146, 146, 146, 0.53);
+}
+
+.app-grid__edit {
+  position: absolute;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.app-grid__delete {
+  position: absolute;
+  padding: 0.4rem;
+  cursor: pointer;
+  right: 0;
+}
+
+.new {
+  width: 50%;
+  margin: auto;
+}
+
+.new__title {
+  text-align: center;
+}
+
+.new .form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 1rem 0;
+}
+
+.new .form-row--btn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.new .form-row__btn {
+  margin: 1rem;
+  background-color: #C4C4C4;
+  border: none;
+  padding: 1rem 1.4rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.new .form-row__btn--send {
+  background: #FF5252;
+  color: white;
+}
+
+.new input {
+  width: 49%;
+}
+
+.new textarea {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

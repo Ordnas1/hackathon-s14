@@ -1,0 +1,19 @@
+{
+  "name": "hackathon-s14",
+  "version": "1.0.0",
+  "description": "Semana 14 hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ordnas1/hackathon-s14.git"
+  },
+  "author": "Sandro Marcelo Peirano Gozalvez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ordnas1/hackathon-s14/issues"
+  },
+  "homepage": "https://github.com/Ordnas1/hackathon-s14#readme"
+}

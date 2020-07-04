@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="appEdit">
+        <page-header></page-header>
+        <div class="new">
+            <h2 class="new__title">Editar Video</h2>
+            <hr>
+            <form action="" method="POST">
+                <div class="form-row">
+                    <input v-model="title" type="text" name="title" id="title" placeholder="Título">
+                    <input v-model="url" type="url" name="url" id="url" placeholder="Url">
+                </div>
+                <textarea v-model="desc" name="desc" id="desc" cols="30" rows="10"></textarea>
+                <div class="form-row form-row--btn">
+                    <button v-on:click.prevent="sendVideo" class="form-row__btn form-row__btn--send">Editar</button>
+                    <button class="form-row__btn">Cancelar</button>
+                </div>
+            </form>    
+        </div> 
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="edit.js"></script>
+</body>
+</html>

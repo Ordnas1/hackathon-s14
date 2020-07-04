@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reto 1</title>
+    <title>Pacha TV</title>
 </head>
 <body>
-    
+    <div id="app">
+        <page-header></page-header>
+        <div class="app-grid">
+            <div v-for="video in videos" class="app-grid__elem">
+                <a :href="'edit.html?id=' + video.id"><span class=app-grid__edit>&#9998</span></a>
+                <span v-on:click="deleteVideo(video.id)" class="app-grid__delete">&#10005</span>
+                <img v-bind:src="video.url">
+                <h2>{{ video.title }}</h2>
+                <h3>0 visualizaciones</h3>
+                <p>{{ video.desc }}</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
